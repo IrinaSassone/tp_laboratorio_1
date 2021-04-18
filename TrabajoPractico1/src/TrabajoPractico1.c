@@ -33,12 +33,12 @@ int main() {
 	// Creación de menú
 	do {
 		printf("CALCULADORA.\nSeleccione entre las siguientes opciones: ");
-		if(banderaValorUno=1) {
+		if(banderaValorUno==1) {
 			printf("\n1. Para ingresar el primer valor. (A=%.2f)", valorUno);
 		}else{
 			printf("\n1. Para ingresar el primer valor. (A=x)");
 		}
-		if(banderaValorDos=1) {
+		if(banderaValorDos==1) {
 			printf("\n2. Para ingresar el segundo valor. (B=%.2f)", valorDos);
 		}else{
 			printf("\n2. Para ingresar el segundo valor. (B=y)");
@@ -104,4 +104,3 @@ int main() {
 
 	return 0;
 }
-
